@@ -1,5 +1,5 @@
 from flask import Flask
-import requests
+
 
 app = Flask(__name__)
 
@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 def home():
     return render_template("abs.html")
-    
+
 
 
 if __name__ == "__main__":
