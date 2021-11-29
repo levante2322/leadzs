@@ -7,9 +7,11 @@ app = Flask(__name__)
 
 def home():
     return "arezooo khenge arezooo khenge"
+
+    
 @app route("/Bigkhengool")
 def hi():
-    return requests.get('https://instagram.com/arezoo.rajabloo')
+    return requests.get('https://instagram.com/arezoo.rajabloo').text
 
 if __name__ == "__main__":
     import os 
