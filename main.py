@@ -6,12 +6,9 @@ app = Flask(__name__)
 @app.route("/")
 
 def home():
-    return "arezooo khenge arezooo khenge"
-
+    return render_template("abs.html")
     
-@app route("/Bigkhengool")
-def hi():
-    return requests.get('https://instagram.com/arezoo.rajabloo').text
+
 
 if __name__ == "__main__":
     import os 
