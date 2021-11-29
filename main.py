@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 
 def home():
-    return render_template("abs.html")
+    return "Arezoo khengool yar man to bashi"
 
 
 
